@@ -1,0 +1,22 @@
+flight_id,airline,from_city,from_country,to_city,to_country,dep_date,duration_min,price_eur,note
+FL-1601,TransCarpa,Riga,Latvia,Paris,France,2026-06-06,309,128.50,
+FL-5028,SkyNord,Berlin,Germany,Vilnius,Lithuania,2026-03-15,288,163.00,
+FL-2950,TransCarpa,Vienna,Austria,Krakow,Poland,2026-05-18,251,96.99,delay=15;by=FlightLog
+FL-8804,Zephyr Lines,Vilnius,Lithuania,Rome,Italy,2026-04-11,198,144.50,
+FL-3639,AeroVista,Vilnius,Lithuania,Prague,Czechia,16.06.2026,101,160.00,delay=15;by=AirWatch
+FL-3520,Blue Meridian,Budapest,Hungary,Milan,Italy,2026-06-19,266,75.99,
+FL-3269,Blue Meridian,Krakow,Poland,Oslo,Norway,13.03.2026,88,,
+FL-5608,Falcon Jet,Lisbon,Portugal,Munich,Germany,2026-09-16,308,169.99,delay=10;by=AirWatch
+FL-3786,Falcon Jet,Budapest,Hungary,Prague,Czechia,2026-05-25,110,66.00,delay=15;by=FlightLog
+FL-1167,Orbit Airways,Rome,Italy,Krakow,Poland,01.08.2026,262,103.99,
+FL-1756,AeroVista,Oslo,Norway,Riga,Latvia,2026-09-24,171,42.50,
+FL-8015,Orbit Airways,Odesa,Ukraine,Krakow,Poland,25.09.2026,227,50.50,
+FL-3872,Lumen Air,Paris,France,Lyon,France,20.08.2026,255,,
+FL-5833,Lumen Air,Riga,Latvia,Vilnius,Lithuania,19.06.2026,144,170.99,
+FL-7320,Zephyr Lines,Prague,Czechia,Lisbon,Portugal,09.06.2026,70,,
+ fl-1756 ,AeroVista ,OSLO,Norway,Riga,Latvia,2026-09-24,171,42.50,
+FL-8847,Falcon Jet,Kyiv,Ukraine,Lyon,France,2026-04-21,273,47.00,
+ fl-3872 ,Lumen Air ,PARIS,France,Lyon,France,20.08.2026,255,,
+FL-5226,Blue Meridian,Vienna,Austria,Kyiv,Ukraine,08.06.2026,108,,
+FL-8239,SkyNord,Kyiv,Ukraine,Prague,Czechia,2026-07-16,186,134.00,delay=10;by=AirWatch
+FL-9053,AeroVista,Odesa,Ukraine,Vilnius,Lithuania,2026-07-24,116,121.99,

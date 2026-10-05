@@ -1,0 +1,11 @@
+SELECT ?item ?itemLabel (MAX(?cap) AS ?value) (SAMPLE(?site) AS ?website) WHERE {
+  ?item wdt:P31 wd:Q483110 ;
+        wdt:P17 wd:Q38 ;
+        wdt:P1083 ?cap .
+  FILTER(?cap > 20000)
+  OPTIONAL { ?item wdt:P856 ?site . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+GROUP BY ?item ?itemLabel
+ORDER BY DESC(?value) ?item
+LIMIT 20

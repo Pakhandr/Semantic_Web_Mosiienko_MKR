@@ -1,0 +1,10 @@
+SELECT ?item ?itemLabel ?region ?regionLabel (MAX(?pop) AS ?population) WHERE {
+  ?item wdt:P31 wd:Q483110 ;
+        wdt:P17 wd:Q38 ;
+        wdt:P131 ?region .
+  ?region wdt:P1082 ?pop .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+GROUP BY ?item ?itemLabel ?region ?regionLabel
+ORDER BY DESC(?population) ?item
+LIMIT 10
